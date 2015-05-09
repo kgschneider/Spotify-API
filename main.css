@@ -1,0 +1,38 @@
+/* NAV BAR CSS */
+
+* {
+	font-family: 'Patrick Hand SC', cursive;
+}
+
+.container {
+	background-color: #C0EBBB;
+	overflow: visible;
+}
+
+.nav-bar {
+	display: flex;
+	flex-direction: row;
+	background-color: #47A33B;
+	color: white;
+	overflow: visible;
+}
+
+.intro {
+	margin-right: 54%;
+	overflow: visible;
+	margin-left: 1%;
+	white-space: nowrap;
+	font-size: 1.3em;
+}
+
+input[type="submit"] {
+	display: none;
+}
+
+.search-bar {
+	margin-top: 1%;
+}
+
+.explanation {
+	overflow: visible;
+}

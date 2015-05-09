@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Artist Spotify API</title>
+	<link rel="stylesheet" href="main.css">
+	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="app2.js"></script>
+</head>
+<body>
+	<div class="container"> 
+		<div class="nav-bar">
+		<div class="intro"> 
+			 <div class="explanation"> 
+				<p><strong>Artist Spotify API.</strong> Find top artists and their top albums.</p>
+		</div> 
+		</div> 
+		<div class="search-bar">	
+			<form class="artist-getter" onsubmit="return false;">
+				<input type="text" placeholder='e.g., "The Beatles" or "Tame Impala"' name="tags" size="30" autofocus required>
+				<input type="submit" value="Submit">
+			</form>
+		</div> 
+	</div> 
+</div>
+		<hr>
+	<div class="site-body">	
+		<div class="results-container">
+			<div class="search-results"></div>
+			<div class="album-search-results"></div>
+			<div class="results"></div>
+			<div class="album-results"></div>
+		</div>
+	</div>
+	<div class="templates hidden">
+		<dl class="result question">
+			<dt></dt>
+				<dd class="name-genre"></dd>
+			<dt></dt>
+				<dd class="band-photo"></dd>
+			<dt></dt>
+				<dd class="followers"></dd>
+			<dt></dt>
+				<dd class="asker"></dd>
+		</dl>
+
+		<dl class="result question2">
+			<dt></dt>
+				<dd class="top-3-albums"></dd>	
+			<dt></dt>
+				<dd class="score"></dd>
+			<dt></dt>
+				<dd class="postcount"></dd>
+		</dl>
+
+		<!--<div class="error">
+			<p>Uh-oh! Something went wrong with your request. Here's what we know:</p>
+		</div> -->
+	</div>
+</body>
+</html>
